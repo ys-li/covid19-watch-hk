@@ -1,0 +1,29 @@
+iframe {
+    border: 0;
+}
+
+figcaption,
+figure,
+main {
+    display: block;
+}
+
+main {
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: flex; 
+    flex-direction: column;
+}
+
+#root {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100%;
+}

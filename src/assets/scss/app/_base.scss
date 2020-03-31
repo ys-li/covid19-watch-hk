@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+}
+
+table {
+    margin-bottom: 0;
+}
+
+u {
+    color: #66a1ff;
+}
+
+.unselectable {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.map-modal {
+    min-width: 95vw;
+    min-height: 70vh;
+}
